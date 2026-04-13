@@ -3,8 +3,9 @@ const age = 21;
 const city = "banglore";
 const Profession = "Student";
 const skills = "JavaScript";
+const hobby = "coding";
 
-console.log(`My Name is ${name}, I am ${age}, from ${city}, i am a ${Profession},my skill is ${skills}`);
+console.log(`My Name is ${name}, I am ${age}, from ${city}, i am a ${Profession},my skill is ${skills},my hobby is ${hobby}`);
 
 const a = 15;
 const b = 5;
