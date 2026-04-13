@@ -56,5 +56,49 @@ else{
     console.log("Acess Denied");
 }
 
+for(let i=1;i<=10;i++){
+    console.log(i);
+}
 
+for (let i=10;i>=1;i--){
+    console.log(i);
+}
+
+
+for(let i=1;i<=10;i++){
+    if(i%2==0){
+        console.log(i);
+    }
+}
+
+let sum = 0;
+for(let i=1;i<=5;i++){
+    sum+=i;
+}
+console.log("Sum:",sum);
+
+const num = 5;
+
+for(let i=1;i<=10;i++){
+    console.log(`${num} x ${i} = ${num*i}`);
+}
+
+for(let i=1;i<=20;i++){
+    if(i%3===0){
+        console.log("Divisible by 3:",i);
+    }
+}
+
+
+for(let i=1;i<=10;i++){
+    if(i%2!==0){
+        console.log("Odd numbers:",i);
+    }
+}
+
+for(let i=1;i<=50;i++){
+    if(i%5===0){
+        console.log(i)
+    }
+}
 
