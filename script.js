@@ -18,8 +18,43 @@ console.log("Div:",a/b);
 
 console.log("Adult:",age>=18);
 
-console.log(x)
 
+if(age>=18){
+    console.log("You Can Vote");
+}
+else{
+    console.log("You Cannot Vote");
+}
+
+if(age>=18){
+    console.log("Adult");
+}
+else{
+    console.log("Minor");
+}
+
+const marks = 75;
+
+if(marks>=90){
+    console.log("A");
+}
+else if(marks>=75){
+    console.log("B");
+}else if(marks>=50){
+    console.log("C");
+}else{
+    console.log("Fail");
+}
+
+const username = "admin";
+const password = "1234";
+
+if(username==="admin"&& password==="1234"){
+    console.log("Login success")
+}
+else{
+    console.log("Acess Denied");
+}
 
 
 
