@@ -102,3 +102,58 @@ for(let i=1;i<=50;i++){
     }
 }
 
+const fruits = ["apple","banana","mango"];
+
+console.log(fruits[0]);
+console.log(fruits[1]);
+
+console.log(fruits.length);
+
+const numbers = [10,20,30,40,50];
+console.log(numbers);
+
+const Numbers = [10,20,30];
+for(let i=0;i<=Numbers.length;i++){
+    console.log(Numbers[i]);
+}
+
+const nums = [10,20,30];
+let sum_new = 0;
+
+for(let i=0;i<=nums.length;i++){
+    sum_new += nums[i];
+}
+console.log(sum);
+
+const nums_new = [10,20,30];
+for(i=0;i<=nums_new.length;i++){
+    if(nums_new[i]%2===0){
+        console.log(nums_new[i])
+    }
+}
+
+fruits.push("mango");
+
+console.log(fruits);
+
+fruits.pop();
+console.log(fruits);
+
+const marks_an = [80,60,90,50,70];
+
+let total = 0;
+
+for(let i=0;i<marks_an.length;i++){
+    total += marks_an[i];
+}
+
+let avg = total/marks_an.length;
+
+console.log("Average:",avg);
+
+if(avg>=75){
+    console.log("Good performance");
+}
+else{
+    console.log("Needs improvement");
+}
